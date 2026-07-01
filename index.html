@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidadania Digital & IA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Cidadania Digital & IA</h1>
+            <p>O Impacto das Deepfakes e da Desinformação na Sociedade</p>
+            <button id="theme-toggle" class="btn-theme">🌓 Alternar Tema</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Informativa 1 -->
+        <section class="card-section">
+            <h2>O que são Deepfakes?</h2>
+            <p>Deepfakes são vídeos, áudios ou imagens modificados artificialmente por meio de Inteligência Artificial. Elas são capazes de fazer pessoas dizerem ou fazerem coisas que nunca aconteceram, gerando sérios riscos para a verdade e a segurança digital.</p>
+        </section>
+
+        <!-- Seção Informativa 2 -->
+        <section class="card-section">
+            <h2>Os Perigos da Desinformação Automatizada</h2>
+            <p>Com o uso de robôs e IA generativa, notícias falsas (fake news) podem ser criadas e espalhadas em massa em poucos segundos. Isso prejudica a democracia, destrói reputações e espalha o pânico na sociedade.</p>
+        </section>
+
+        <!-- Seção Interativa (Quiz) -->
+        <section class="quiz-section">
+            <h2>Desafio: Você sabe identificar uma Fake News?</h2>
+            <p>Responda rápido para testar seus conhecimentos de cidadania digital:</p>
+            
+            <form id="quiz-form">
+                <div class="quiz-question">
+                    <p><strong>1. Se uma notícia bombástica chega no seu WhatsApp sem link de fontes confiáveis, você deve:</strong></p>
+                    <label>
+                        <input type="radio" name="q1" value="errado" required> Compartilhar imediatamente com amigos.
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="certo"> Pesquisar em sites de checagem antes de repassar.
+                    </label>
+                </div>
+                <button type="submit" class="btn-submit">Verificar Respostas</button>
+            </form>
+            <div id="quiz-result" class="result-box hidden"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Projeto de Educação Digital e IA. Criado para fins educativos.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
